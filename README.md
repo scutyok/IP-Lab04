@@ -1,4 +1,4 @@
-# IP-Lab04
+# IP-Lab04 -- Peripheral Device Management
 
 1. Mihnea Lupu
 2. Ciustea Dumitru Rares
