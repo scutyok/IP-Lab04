@@ -6,4 +6,4 @@
 4. Dorcu Eduard
 5. Bunduc Alexandru
 6. Rusu Alexandru
-7. Nicolaiciuc Andrei
+7. Nicolaiciuc Andrei (Scrum Master)
