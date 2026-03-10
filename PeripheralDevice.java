@@ -8,24 +8,35 @@ public class PeripheralDevice {
     boolean isConnected;
 
     // public methods
+    public PeripheralDevice(String deviceID, String connectionType, boolean isConnected){
+        this.deviceID=deviceID;
+        this.connectionType=connectionType;
+        this.isConnected=isConnected;
+    }
 
     public void receiveUserInput()
     {
         Scanner in = new Scanner(System.in);
-        while (true) 
+        while (true)
         {
-            System.out.println("input:");
+            System.out.print("input: ");
             try {
-                isConnected=true;
                 String input = in.nextLine();
+                if (input == null) {
+                    break;
+                }
                 System.out.println(input);
-                if(input=="x")
+                if (!input.trim().isEmpty()) {
+                    this.isConnected = true;
+                }
+                if ("x".equalsIgnoreCase(input.trim()))
                 {
                     break;
                 }
             }
             catch (java.util.InputMismatchException e) {
-                this.isConnected=false;
+                this.isConnected = false;
+                break;
             }
         }
     }
@@ -51,11 +62,11 @@ public class PeripheralDevice {
     {
         if(isConnected)
         {
-            return "1#ACCEPTED " + this.deviceID;
+            return " 1#ACCEPTED " + this.deviceID + " ";
         }
         else
         {
-            return "0#REFUSED " + this.deviceID;
+            return " 0#REFUSED " + this.deviceID + " ";
         }
     }
 
