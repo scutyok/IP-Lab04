@@ -1,9 +1,9 @@
 # IP-Lab04
 
-Mihnea Lupu
-Ciustea Dumitru Rares
-Cricu Iulian Codrut
-Dorcu Eduard
-Bunduc Alexandru
-Rusu Alexandru
-Nicolaiciuc Andrei
+1. Mihnea Lupu
+2. Ciustea Dumitru Rares
+3. Cricu Iulian Codrut
+4. Dorcu Eduard
+5. Bunduc Alexandru
+6. Rusu Alexandru
+7. Nicolaiciuc Andrei
